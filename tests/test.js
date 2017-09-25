@@ -27,7 +27,7 @@ describe("Arithmetic or Geometric sequence", function() {
 			assert.equal(myApp.aritGeo([]), '0');
 		});
 		it("should return one value in array", function(){
-			assert.equal(myApp.aritGeo([5]), '-1');
+			assert.notequal(myApp.aritGeo([5]), '-1');
 		});
 		it("should return arithmetic nor geometric progression", function(){
 			assert.equal(myApp.aritGeo([1, 2, 3, 9, 10]), '-1');
