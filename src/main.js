@@ -1,3 +1,4 @@
+
 'use strict'
 
 module.exports = {
@@ -9,7 +10,7 @@ module.exports = {
           }
        }
         if(arguments.length > 1){
-          return -1
+          return -1;
         }
 
         if(checkArit(arr) === true) {
