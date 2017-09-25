@@ -6,16 +6,16 @@ describe("Arithmetic or Geometric sequence", function() {
 
 	describe("handle valid input", function() {
 		it("should 1,2,3,4 as an arithmetic sequence", function() {
-			assert.equal(myApp.aritGeo([1, 2, 3, 4]), Arithmetic);
+			assert.equal(myApp.aritGeo([1, 2, 3, 4]), 'Arithmetic');
 		});
 		it("should 2,6,18,54 as an geometric sequence", function() {
-			assert.equal(myApp.aritGeo([2, 6, 18, 54]), Geometric);
+			assert.equal(myApp.aritGeo([2, 6, 18, 54]), 'Geometric');
 		});
 		it("should 1,3,5,7 as an arithmetic sequence", function() {
-			assert.equal(myApp.aritGeo([1, 3, 5, 7]), Arithmetic);
+			assert.equal(myApp.aritGeo([1, 3, 5, 7]), 'Arithmetic');
 		});
 		it("should 2,4,8,16 as an arithmetic sequence", function() {
-			assert.equal(myApp.aritGeo([2, 4, 8, 16]), Geometric);
+			assert.equal(myApp.aritGeo([2, 4, 8, 16]), 'Geometric');
 		});
 	})
 
