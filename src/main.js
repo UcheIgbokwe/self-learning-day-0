@@ -1,4 +1,3 @@
-
 'use strict'
 
 module.exports = {
@@ -9,7 +8,7 @@ module.exports = {
             return 0;
           }
        }
-        if(arguments.length > 1){
+        if(arguments.length < 1){
           return -1;
         }
 
